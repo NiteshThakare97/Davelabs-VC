@@ -448,3 +448,15 @@ body.rtl .elementor-4294 .elementor-element.elementor-element-cf82f43 {
 .elementor-4294 .elementor-element.elementor-element-1a5cb23 {
     padding-top: 18px;
 }
+
+@media only screen and (max-width: 600px) {
+    .elementor-4294 .elementor-element.elementor-element-1d49dfd .pxl-text-editor .pxl-item--inner {
+        max-width: fit-content;
+    }
+    .elementor-4294 .elementor-element.elementor-element-e3e6bfd>.elementor-element-populated {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-4294 .elementor-element.elementor-element-bd805d6 {
+        padding-bottom: 30px;
+    }
+}

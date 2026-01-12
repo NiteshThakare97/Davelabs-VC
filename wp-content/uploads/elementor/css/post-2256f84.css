@@ -1468,3 +1468,9 @@ body.rtl .elementor-225 .elementor-element.elementor-element-55f6750 {
         font-size: 15px;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .elementor-225 .elementor-element.elementor-element-5317345>.elementor-widget-container p {
+        padding-right: 0%;
+    }
+}

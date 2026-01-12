@@ -7636,7 +7636,7 @@ blockquote:not(.pxl-blockquote) cite,
     -ms-transition: all .25s cubic-bezier(.645, .045, .355, 1);
     -o-transition: all .25s cubic-bezier(.645, .045, .355, 1);
     transition: all .25s cubic-bezier(.645, .045, .355, 1);
-    background-color: #1b1b1b
+    background-color: #a84dd7;
 }
 
 .pxl-close:before {
@@ -8126,7 +8126,7 @@ blockquote:not(.pxl-blockquote) cite,
     }
     #pxl-header-default .pxl-header-branding img,
     #pxl-header-elementor .pxl-header-branding img {
-        height: 30px
+        height: 54px;
     }
     #pxl-header-default #pxl-nav-mobile,
     #pxl-header-elementor #pxl-nav-mobile {
@@ -8194,7 +8194,7 @@ blockquote:not(.pxl-blockquote) cite,
         -ms-box-shadow: 0 0 15px rgba(0, 0, 0, 8%);
         -o-box-shadow: 0 0 15px rgba(0, 0, 0, 8%);
         box-shadow: 0 0 15px rgba(0, 0, 0, 8%);
-        background-color: #fff;
+        background-color: #22183c;
         overflow-y: scroll
     }
     .pxl-header-menu.active {
@@ -8259,10 +8259,10 @@ blockquote:not(.pxl-blockquote) cite,
     .pxl-menu-primary li.pxl-item--link>a {
         display: block;
         line-height: 46px;
-        color: #000;
+        color: #fff;
         font-size: 14px;
-        font-weight: 700;
-        border-bottom: 1px solid rgba(0, 0, 0, 6%)
+        font-weight: 500;
+        border-bottom: 1px solid rgb(212 86 195 / 41%);
     }
     .pxl-menu-primary li.menu-item>a:hover,
     .pxl-menu-primary li.pxl-item--link>a:hover,
@@ -8337,7 +8337,7 @@ blockquote:not(.pxl-blockquote) cite,
         margin-bottom: 35px
     }
     .pxl-logo-mobile img {
-        height: 30px
+        height: 40px
     }
     .pxl-logo-mobile .pxl-logo--light {
         display: none
@@ -8406,7 +8406,8 @@ blockquote:not(.pxl-blockquote) cite,
     #pxl-header-elementor #pxl-header-mobile {
         display: block;
         position: relative;
-        z-index: 999
+        z-index: 999;
+        background: #22183c;
     }
     #pxl-header-elementor #pxl-header-mobile .sub-menu .elementor-section {
         width: 100% !important
@@ -8653,7 +8654,7 @@ blockquote:not(.pxl-blockquote) cite,
     right: 0;
     bottom: 0;
     right: 0;
-    background: #000;
+    background: #7a34e5;
     opacity: 1;
     width: 100%;
     -webkit-border-radius: 3px;
@@ -40047,4 +40048,19 @@ sr7-content {
     padding: 0px 20px;
     background: linear-gradient(136deg, #8c4a9b, #5f52a9);
     line-height: 44px;
+}
+
+@media only screen and (max-width: 600px) {
+    button:not(.btn),
+    .button:not(.btn),
+    input[type=submit]:not(.btn) {
+        line-height: 28px;
+    }
+    .pxl-accordion1.style-1 .pxl--item.active {
+        padding-top: 2px;
+        padding-right: 56px;
+    }
+    .pxl-featured-image-box.style2 .pxl--item .pxl-item--image img {
+        min-width: 234px;
+    }
 }

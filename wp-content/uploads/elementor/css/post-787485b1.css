@@ -1672,7 +1672,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         padding: 0px 0px 0px 15px;
     }
     .elementor-7874 .elementor-element.elementor-element-d5aa0d3 .pxl-heading .pxl-item--title {
-        font-size: 70px;
+        font-size: 34px;
     }
     .elementor-7874 .elementor-element.elementor-element-6c8b3fa .pxl-button .pxl-icon--right .pxl--btn-icon {
         margin-left: 30px;
@@ -1681,7 +1681,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         height: 450px;
     }
     .elementor-7874 .elementor-element.elementor-element-e28e7ad>.elementor-widget-container {
-        margin: -375px 15px 0px 0px;
+        margin: -120px 15px 0px 0px;
     }
     .elementor-7874 .elementor-element.elementor-element-e28e7ad .pxl--user-count-widget .pxl-counter--title {
         font-size: 25px;
@@ -1829,7 +1829,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 @media(max-width:880px) {
     .elementor-7874 .elementor-element.elementor-element-bed9a17 {
-        padding: 150px 0px 500px 0px;
+        padding: 0px 0px 12px 0px;
     }
     .elementor-7874 .elementor-element.elementor-element-1fcc5c6>.elementor-widget-container {
         margin: 15px 0px 0px 0px;
@@ -1870,10 +1870,12 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         background-position: center center;
     }
     .elementor-7874 .elementor-element.elementor-element-68dfc63 {
-        padding: 115px 0px 115px 0px;
+        padding: 0px 0px 34px 0px;
+        margin-top: -95px;
     }
     .elementor-7874 .elementor-element.elementor-element-fa3ad13 .pxl-heading .pxl-item--title {
         font-size: 40px;
+        text-align: center;
     }
     .elementor-7874 .elementor-element.elementor-element-ec82f34 {
         padding: 115px 0px 115px 0px;
@@ -1919,7 +1921,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         font-size: 60px;
     }
     .elementor-7874 .elementor-element.elementor-element-e905d13 {
-        padding: 115px 0px 115px 0px;
+        padding: 0px 0px 640px 0px;
     }
     .elementor-7874 .elementor-element.elementor-element-b7f1dd8 .pxl-testimonial-box:before {
         height: 100%;
@@ -1959,7 +1961,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         z-index: -2;
     }
     .elementor-7874 .elementor-element.elementor-element-e08cade {
-        padding: 255px 15px 115px 15px;
+        padding: 10px 15px 663px 15px;
     }
     .elementor-7874 .elementor-element.elementor-element-bdc8504 .pxl-heading .pxl-heading--inner {
         max-width: 500px;
@@ -2376,4 +2378,78 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     position: absolute;
     left: 0%;
     top: 16%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .elementor-7874 .elementor-element.elementor-element-069ce06 .pxl-text-editor {
+        margin: 9px 0px 10px;
+    }
+    .elementor-7874 .elementor-element.elementor-element-e28e7ad .pxl--user-count-widget1.style-2 {
+        padding: 10px 22px 12px !important;
+    }
+    .elementor-7874 .elementor-element.elementor-element-d2aee10 .pxl-text-editor {
+        padding-left: 30px;
+    }
+    #homesec5 {
+        left: 45%;
+        width: 35%;
+        top: 51%;
+    }
+    #homesec7 {
+        top: 87%;
+    }
+    #legal-img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .elementor-7874 .elementor-element.elementor-element-bed9a17:not(.elementor-motion-effects-element-type-background),
+    .elementor-7874 .elementor-element.elementor-element-bed9a17>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-size: contain;
+        background-position: bottom;
+        background-color: #0f0a1e;
+        padding: 0px 0px 165px 0px;
+    }
+    .elementor-7874 .elementor-element.elementor-element-d5aa0d3 .pxl-heading .pxl-item--title {
+        font-size: 40px;
+    }
+    .elementor-element-e28e7ad .pxl-counter--holder {
+        gap: 0 !important;
+    }
+    .elementor-7874 .elementor-element.elementor-element-e28e7ad .pxl--user-count-widget1.style-2 {
+        padding: 20px 5px 26px !important;
+    }
+    .elementor-7874 .elementor-element.elementor-element-a95563b {
+        padding: 455px 0px 118px 0px;
+    }
+    .elementor-7874 .elementor-element.elementor-element-68dfc63:not(.elementor-motion-effects-element-type-background),
+    .elementor-7874 .elementor-element.elementor-element-68dfc63>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        clip-path: polygon(5% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 8%);
+    }
+    .elementor-7874 .elementor-element.elementor-element-e905d13 {
+        padding: 0px 0px 330px 0px;
+    }
+    #homesec5 {
+        width: 88%;
+        top: 80%;
+    }
+    #homesec7 {
+        top: 150%;
+        width: 96%;
+    }
+    .elementor-7874 .elementor-element.elementor-element-feb1ed2 {
+        padding-bottom: 340px;
+    }
+    .elementor-element-bc827191 {
+        padding: 0px 0px 241px 0px;
+    }
+    #legal-img {
+        top: 90%;
+    }
+    .elementor-7874 .elementor-element.elementor-element-4bb72e6 .pxl-process .elementor-repeater-item-ed53588 .pxl-icon img,
+    .elementor-7874 .elementor-element.elementor-element-4bb72e6 .pxl-process .elementor-repeater-item-6192e87 .pxl-icon img,
+    .elementor-7874 .elementor-element.elementor-element-4bb72e6 .pxl-process .elementor-repeater-item-d0f681e .pxl-icon img {
+        height: 94px;
+    }
 }
