@@ -32303,7 +32303,7 @@ input[type=submit]:not(.btn):focus {
 .btn.btn-icon-box7 .pxl--btn-text {
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #fff;
     background-image: -webkit-linear-gradient(90deg, var(--primary-color) 0%, var(--fourth-color) 48.53%, var(--third-color) 100%);
     background-image: -moz-linear-gradient(90deg, var(--primary-color) 0%, var(--fourth-color) 48.53%, var(--third-color) 100%);
     background-image: -ms-linear-gradient(90deg, var(--primary-color) 0%, var(--fourth-color) 48.53%, var(--third-color) 100%);
@@ -32343,7 +32343,7 @@ input[type=submit]:not(.btn):focus {
     width: calc(100% - 2px);
     height: calc(100% - 2px);
     border-radius: inherit;
-    background: #fff;
+    background: #4520c2;
     z-index: -1
 }
 
@@ -37838,7 +37838,7 @@ body.rtl .widget_search .search-submit {
     transform: translate(-50%, -50%);
     border-radius: 1e3px;
     /* background: linear-gradient(90deg, #a748dd 0%, #f35cac 48.53%, #fb8348 100%), #fff; */
-    background: #4520c2;
+    background: transparent;
     z-index: -2
 }
 

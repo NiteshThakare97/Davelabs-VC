@@ -1,9 +1,9 @@
 .elementor-7874 .elementor-element.elementor-element-bed9a17:not(.elementor-motion-effects-element-type-background),
 .elementor-7874 .elementor-element.elementor-element-bed9a17>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../../../images/02/MainBanner.png");
-    /* background-position: bottom center; */
+    /* background-image: url("../../../../images/02/MainBanner.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: linear-gradient(360deg, #1a1737, #070614);
 }
 
 .elementor-7874 .elementor-element.elementor-element-bed9a17>.elementor-container {
@@ -50,9 +50,10 @@
 }
 
 .elementor-7874 .elementor-element.elementor-element-1fcc5c6 .pxl-button .btn {
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 0px 4px 0px 4px;
-    padding: 0px 17px 0px 28px;
+    padding: 0px 28px 0px 28px;
+    margin-right: 32px;
 }
 
 .elementor-7874 .elementor-element.elementor-element-1fcc5c6 .pxl-button .btn .pxl--btn-icon {
@@ -69,6 +70,7 @@
 
 .elementor-7874 .elementor-element.elementor-element-8b61578.elementor-column>.elementor-widget-wrap {
     justify-content: flex-end;
+    margin: auto;
 }
 
 .elementor-7874 .elementor-element.elementor-element-8b61578>.elementor-element-populated {
@@ -85,7 +87,7 @@
 }
 
 .elementor-7874 .elementor-element.elementor-element-c12fe0f>.elementor-element-populated {
-    padding: 7px 0px 0px 75px;
+    padding: 7px 0px 0px 7px;
 }
 
 .elementor-7874 .elementor-element.elementor-element-d5aa0d3 {
@@ -101,9 +103,9 @@
     color: #FFFFFF;
     -webkit-text-stroke-color: #FFFFFF;
     font-size: 60px;
-    font-weight: 400;
-    line-height: 1.1;
-    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
     margin-bottom: 0px;
 }
 
@@ -115,7 +117,7 @@
     color: #FFFFFF;
     font-size: 20px;
     line-height: 1.5;
-    margin: 60px 0px 70px;
+    margin: 36px 0px 40px;
 }
 
 .elementor-7874 .elementor-element.elementor-element-aa3f808 {
@@ -1369,7 +1371,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         font-size: 94px;
     }
     .elementor-7874 .elementor-element.elementor-element-d5aa0d3 .pxl-heading .pxl-item--title {
-        font-size: 64px;
+        font-size: 88px;
     }
     .elementor-7874 .elementor-element.elementor-element-6c8b3fa>.elementor-widget-container {
         margin: 160px 0px 0px -50px;
@@ -2191,10 +2193,10 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 @media(min-width:768px) {
     .elementor-7874 .elementor-element.elementor-element-8b61578 {
-        width: 42%;
+        width: 45%;
     }
     .elementor-7874 .elementor-element.elementor-element-c12fe0f {
-        width: 58%;
+        width: 55%;
     }
     .elementor-7874 .elementor-element.elementor-element-76f4b91 {
         width: 40%;
@@ -2452,4 +2454,28 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     .elementor-7874 .elementor-element.elementor-element-4bb72e6 .pxl-process .elementor-repeater-item-d0f681e .pxl-icon img {
         height: 94px;
     }
+}
+
+
+/* My new CSS  */
+
+.elementor-element-069ce06 h3 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.elementor-element-069ce06 ul li {
+    font-size: 24px;
+    line-height: 2;
+}
+
+#associates {
+    padding: 40px 0px 30px;
+    background-color: #7a34e594;
+}
+
+#associates img {
+    height: 100px;
+    padding: 20px 34px;
 }
