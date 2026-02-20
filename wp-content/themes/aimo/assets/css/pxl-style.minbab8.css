@@ -37824,7 +37824,7 @@ body.rtl .widget_search .search-submit {
     height: 100%;
     inset: 0;
     clip-path: polygon(2.29% 0, 100% 0, 100% 62.5%, 97.71% 100%, 0 100%, 0 37.5%);
-    background: #22183c;
+    background: #0e0b2a;
     z-index: -1
 }
 
@@ -37837,7 +37837,8 @@ body.rtl .widget_search .search-submit {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 1e3px;
-    background: linear-gradient(90deg, #a748dd 0%, #f35cac 48.53%, #fb8348 100%), #fff;
+    /* background: linear-gradient(90deg, #a748dd 0%, #f35cac 48.53%, #fb8348 100%), #fff; */
+    background: #4520c2;
     z-index: -2
 }
 
