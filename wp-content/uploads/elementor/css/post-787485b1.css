@@ -2472,10 +2472,127 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 #associates {
     padding: 40px 0px 30px;
-    background-color: #7a34e594;
+    /* background-color: #7a34e594; */
+    background-color: #070614;
 }
 
 #associates img {
     height: 100px;
     padding: 20px 34px;
 }
+
+
+/* Counter Section starts */
+
+.counter-section {
+    background: #4520c2;
+    color: #fff;
+}
+
+.counter-section h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.counter-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.counter-section small {
+    color: #a49ecf;
+}
+
+
+/* Counter Section ends */
+
+
+/* Home sec3 section starts */
+
+.hero-section {
+    color: #ffffff;
+    overflow: hidden;
+    background-image: url(../../../../image/03/Bg-lines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px 300px;
+}
+
+.homesec-3 {
+    background-color: #070614;
+}
+
+
+/* Grid Background Effect */
+
+.hero-title {
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.hero-text {
+    font-size: 22px;
+    color: #bfbfd6;
+}
+
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .hero-title {
+        font-size: 40px;
+    }
+    .hero-text {
+        font-size: 16px;
+    }
+}
+
+.homesec3-2 {
+    margin-top: -285px;
+}
+
+.homesec3-2 .card {
+    background-color: transparent;
+    border: 1px solid #322268;
+    height: 100%;
+}
+
+.homesec3-2 .card:hover {
+    background-color: #12102e;
+    border: 1px solid #441ec0;
+    box-shadow: 0px 0px 15px 6px #2f18866b;
+}
+
+.homesec3-2 .card h6 {
+    color: #fff;
+}
+
+.homesec3-2 .card img {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+
+/* Home sec3 section ends */
+
+
+/* homesec4 css  */
+
+.homesec4 {
+    background: linear-gradient(180deg, #131034, #0b0a21);
+    padding: 50px 0px;
+    h2 {
+        font-size: 78px;
+        letter-spacing: 3px;
+        line-height: 1;
+    }
+}
+
+
+/* homesec4 css ends */
