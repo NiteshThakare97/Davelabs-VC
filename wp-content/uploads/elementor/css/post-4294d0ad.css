@@ -1,6 +1,9 @@
 .elementor-4294 .elementor-element.elementor-element-bd805d6:not(.elementor-motion-effects-element-type-background),
 .elementor-4294 .elementor-element.elementor-element-bd805d6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background: linear-gradient(180deg, #0f0b23, #201541);
+    background-image: url(../../../../image/footer/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -2px;
 }
 
 .elementor-4294 .elementor-element.elementor-element-bd805d6>.elementor-container {
@@ -10,7 +13,7 @@
 .elementor-4294 .elementor-element.elementor-element-bd805d6 {
     overflow: hidden;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 85px 15px 30px 15px;
+    padding: 15px 15px 0px 15px;
 }
 
 .elementor-4294 .elementor-element.elementor-element-bd805d6>.elementor-background-overlay {
@@ -90,7 +93,8 @@ body.rtl .elementor-4294 .elementor-element.elementor-element-9418abc {
 
 .elementor-4294 .elementor-element.elementor-element-e3e6bfd>.elementor-element-populated li {
     color: #efeff0;
-    line-height: 38px;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
 .elementor-4294 .elementor-element.elementor-element-b0f2fff>.elementor-widget-container {
@@ -240,7 +244,8 @@ body.rtl .elementor-4294 .elementor-element.elementor-element-cf82f43 {
 
 .elementor-4294 .elementor-element.elementor-element-b7c52a7:not(.elementor-motion-effects-element-type-background),
 .elementor-4294 .elementor-element.elementor-element-b7c52a7>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #0d091b;
+    background-color: #070614;
+    margin-top: -1px;
 }
 
 .elementor-4294 .elementor-element.elementor-element-b7c52a7>.elementor-container {
@@ -409,16 +414,16 @@ body.rtl .elementor-4294 .elementor-element.elementor-element-cf82f43 {
 
 @media(min-width:768px) {
     .elementor-4294 .elementor-element.elementor-element-211eb13 {
-        width: 25%;
+        width: 48%;
     }
     .elementor-4294 .elementor-element.elementor-element-e3e6bfd {
         width: 25%;
     }
     .elementor-4294 .elementor-element.elementor-element-88b3946 {
-        width: 25%;
+        width: 20%;
     }
     .elementor-4294 .elementor-element.elementor-element-1a5cb23 {
-        width: 25%;
+        width: 22%;
     }
 }
 
@@ -458,5 +463,18 @@ body.rtl .elementor-4294 .elementor-element.elementor-element-cf82f43 {
     }
     .elementor-4294 .elementor-element.elementor-element-bd805d6 {
         padding-bottom: 30px;
+    }
+}
+
+#subscribe {
+    text-align: end;
+    margin-top: 20px;
+    button {
+        background: #4520c2 !important;
+        border-radius: 5px;
+        padding: 0px 27px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 46px;
     }
 }

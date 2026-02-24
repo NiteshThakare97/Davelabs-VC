@@ -7871,7 +7871,8 @@ blockquote:not(.pxl-blockquote) cite,
 }
 
 #pxl-header-elementor .px-header--transparent {
-    position: absolute;
+    position: fixed;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
@@ -32324,11 +32325,6 @@ input[type=submit]:not(.btn):focus {
     width: 100%;
     height: 100%;
     border-radius: inherit;
-    background-image: -webkit-linear-gradient(180deg, #d75685 0%, #ff7c2e 49%, #a73cec 100%);
-    background-image: -moz-linear-gradient(180deg, #d75685 0%, #ff7c2e 49%, #a73cec 100%);
-    background-image: -ms-linear-gradient(180deg, #d75685 0%, #ff7c2e 49%, #a73cec 100%);
-    background-image: -o-linear-gradient(180deg, #d75685 0%, #ff7c2e 49%, #a73cec 100%);
-    background-image: linear-gradient(180deg, #d75685 0%, #ff7c2e 49%, #a73cec 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='', endColorStr='');
     z-index: -2
 }
@@ -40039,17 +40035,20 @@ sr7-content {
 
 .elementor-element-3afc970 a i {
     font-size: 24px;
+    color: #fff;
 }
 
 #subscribe {
-    padding-top: 30px;
-}
-
-#subscribe button {
-    border-radius: 5px;
-    padding: 0px 20px;
-    background: linear-gradient(136deg, #8c4a9b, #5f52a9);
-    line-height: 44px;
+    text-align: end;
+    margin-top: 20px;
+    button {
+        background: #4520c2 !important;
+        border-radius: 5px;
+        padding: 0px 27px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 46px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
