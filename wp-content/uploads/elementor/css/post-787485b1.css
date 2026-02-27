@@ -12,7 +12,7 @@
 
 .elementor-7874 .elementor-element.elementor-element-bed9a17 {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 206px 15px 110px 15px;
+    padding: 95px 15px 80px 15px;
     z-index: 1;
 }
 
@@ -105,7 +105,7 @@
     font-size: 60px;
     font-weight: 600;
     line-height: 1;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     margin-bottom: 0px;
 }
 
@@ -117,7 +117,7 @@
     color: #FFFFFF;
     font-size: 20px;
     line-height: 1.5;
-    margin: 36px 0px 40px;
+    margin: 20px 0px 10px;
 }
 
 .elementor-7874 .elementor-element.elementor-element-aa3f808 {
@@ -1371,7 +1371,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         font-size: 94px;
     }
     .elementor-7874 .elementor-element.elementor-element-d5aa0d3 .pxl-heading .pxl-item--title {
-        font-size: 82px;
+        font-size: 72px;
     }
     .elementor-7874 .elementor-element.elementor-element-6c8b3fa>.elementor-widget-container {
         margin: 160px 0px 0px -50px;
@@ -2194,6 +2194,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 @media(min-width:768px) {
     .elementor-7874 .elementor-element.elementor-element-8b61578 {
         width: 45%;
+        padding: 0px 0px 0px 50px;
     }
     .elementor-7874 .elementor-element.elementor-element-c12fe0f {
         width: 55%;
@@ -2411,7 +2412,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         background-size: contain;
         background-position: bottom;
         background-color: #0f0a1e;
-        padding: 0px 0px 165px 0px;
+        padding: 0px 0px 45px 0px;
     }
     .elementor-7874 .elementor-element.elementor-element-d5aa0d3 .pxl-heading .pxl-item--title {
         font-size: 40px;
@@ -2461,13 +2462,13 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 .elementor-element-069ce06 h3 {
     color: #fff;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 400;
 }
 
 .elementor-element-069ce06 ul li {
-    font-size: 24px;
-    line-height: 2;
+    font-size: 20px;
+    line-height: 36px;
 }
 
 #associates {
@@ -2490,7 +2491,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 }
 
 .counter-section h2 {
-    font-size: 54px;
+    font-size: 58px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 0px;
@@ -2518,7 +2519,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     background-image: url(../../../../image/03/Bg-lines.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 0px 300px;
+    padding: 50px 0px 260px;
 }
 
 .homesec-3 {
@@ -2529,15 +2530,15 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 /* Grid Background Effect */
 
 .hero-title {
-    font-size: 74px;
+    font-size: 60px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 62px;
     letter-spacing: 5px;
     color: #fff;
 }
 
 .hero-text {
-    font-size: 22px;
+    font-size: 18px;
     color: #bfbfd6;
 }
 
@@ -2588,7 +2589,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     background: linear-gradient(180deg, #131034, #0b0a21);
     padding: 50px 0px;
     h2 {
-        font-size: 78px;
+        font-size: 60px;
         letter-spacing: 3px;
         line-height: 1;
     }
@@ -2606,11 +2607,12 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         height: 70px;
     }
     img {
-        height: 198px;
-        margin: 30px auto 50px;
+        height: 160px;
+        margin: 15px auto 30px;
     }
     li {
-        margin-bottom: 15px;
+        margin-bottom: 12px;
+        line-height: 22px;
     }
     button {
         width: 80%;
@@ -2627,15 +2629,15 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     background: linear-gradient(180deg, #0c0a21, #070614);
     padding: 30px 0px 50px;
     h2 {
-        font-size: 70px;
+        font-size: 60px;
         letter-spacing: 3px;
         font-weight: 600;
         line-height: 1;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
     img {
-        width: 90%;
-        margin-bottom: 100px;
+        width: 72%;
+        margin-bottom: 30px;
     }
     .card {
         background-color: #0c0b22;
@@ -2701,19 +2703,19 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 .hsec6-2 {
     background-color: #070614;
     position: relative;
-    padding: 60px 0px 50px;
+    padding: 45px 0px 50px;
     h2 {
-        font-size: 70px;
+        font-size: 60px;
         letter-spacing: 2px;
         font-weight: 600;
-        margin-bottom: 30px;
+        margin-bottom: 8px;
     }
     .card {
-        padding: 26px 40px;
+        padding: 16px 40px;
         background-color: #0c0b22;
         border: 1px solid #2d1780;
         color: #fff;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 28px;
     }
     .card:hover {
@@ -2721,10 +2723,10 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         box-shadow: 0px 0px 15px 6px #2f18866b;
     }
     h4 {
-        font-size: 36px;
-        letter-spacing: 2px;
+        font-size: 30px;
+        letter-spacing: 0px;
         font-weight: 500;
-        margin: 52px 0px;
+        margin: 30px 0px 16px;
     }
 }
 
@@ -2766,7 +2768,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     padding: 4% 0% 0%;
     position: relative;
     h2 {
-        font-size: 74px;
+        font-size: 60px;
         letter-spacing: 3px;
         color: #fff;
         font-weight: 600;
@@ -2785,9 +2787,9 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     color: #fff;
     padding: 50px 0px;
     h2 {
-        font-size: 68px;
+        font-size: 60px;
         font-weight: 600;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 }
 
@@ -2798,10 +2800,10 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 .img-box {
     background-color: #171437;
-    padding-top: 20px;
+    padding-top: 0px;
     transition: all .3s;
     clip-path: polygon(14% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 20%);
-    height: 380px;
+    height: 360px;
     img {
         width: 100%;
     }
@@ -3096,7 +3098,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 .wrapper {
     margin: 0px auto;
-    padding: 100px 0px 60px;
+    padding: 25px 0px 60px;
     width: 1000px;
     position: relative;
     text-align: end;
@@ -3154,7 +3156,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         background: transparent;
         border: 1px solid rgba(91, 59, 255, 0.3);
         border-radius: 12px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         overflow: hidden;
     }
     /* Question Button */
@@ -3164,7 +3166,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         font-size: 18px;
         font-weight: 500;
         box-shadow: none;
-        padding: 5px 20px;
+        padding: 0px 20px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -3207,6 +3209,17 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     }
 }
 
+.faq-banner {
+    background-image: url(../../../../image/01/FaqBanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 117px 0px 44px;
+    h2 {
+        font-weight: 500;
+        font-size: 36px;
+    }
+}
+
 
 /* FAQ CSS ends */
 
@@ -3225,9 +3238,6 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
             height: 35px;
             font-size: 20px;
             line-height: 25px;
-        }
-        img {
-            height: auto;
         }
         .card {
             padding: 28px 10px;
@@ -3274,6 +3284,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         }
         .custom-accordion .accordion-button {
             text-align: left;
+            padding: 10px 20px;
         }
     }
     #subscribe {
@@ -3286,5 +3297,22 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         .wrapper {
             width: auto;
         }
+    }
+    .faq-banner {
+        padding: 34px 0px 25px;
+    }
+    .hero-title {
+        line-height: 46px;
+    }
+    .hero-section {
+        padding: 50px 0px 276px;
+    }
+    .homesec4 .card {
+        button {
+            line-height: 30px !important;
+        }
+    }
+    #token-img img {
+        width: 100% !important;
     }
 }
