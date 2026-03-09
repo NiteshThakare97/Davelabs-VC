@@ -2564,11 +2564,12 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     height: 100%;
 }
 
-.homesec3-2 .card:hover {
+
+/* .homesec3-2 .card:hover {
     background-color: #12102e;
     border: 1px solid #441ec0;
     box-shadow: 0px 0px 15px 6px #2f18866b;
-}
+} */
 
 .homesec3-2 .card h6 {
     color: #fff;
