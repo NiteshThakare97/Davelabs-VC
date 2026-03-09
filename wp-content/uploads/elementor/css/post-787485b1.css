@@ -1497,7 +1497,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 @media(max-width:1200px) {
     .elementor-7874 .elementor-element.elementor-element-bed9a17 {
-        padding: 150px 15px 529px 15px;
+        padding: 150px 15px 80px 15px;
     }
     .elementor-7874 .elementor-element.elementor-element-81e3ad6>.elementor-widget-container {
         margin: 0px 23px 0px 0px;
@@ -2193,8 +2193,8 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 @media(min-width:768px) {
     .elementor-7874 .elementor-element.elementor-element-8b61578 {
-        width: 45%;
-        padding: 0px 0px 0px 50px;
+        width: 43%;
+        padding: 0px 0px 0px 87px;
     }
     .elementor-7874 .elementor-element.elementor-element-c12fe0f {
         width: 55%;
@@ -2467,7 +2467,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 }
 
 .elementor-element-069ce06 ul li {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 36px;
 }
 
@@ -2636,7 +2636,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         margin-bottom: 10px;
     }
     img {
-        width: 72%;
+        width: 62%;
         margin-bottom: 30px;
     }
     .card {
@@ -2684,7 +2684,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 }
 
 .hsec6 {
-    padding: 60px 0px 26px;
+    padding: 36px 0px 26px;
     h6 {
         font-size: 27px;
         font-weight: 500;
@@ -2715,7 +2715,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         background-color: #0c0b22;
         border: 1px solid #2d1780;
         color: #fff;
-        font-size: 20px;
+        font-size: 22px;
         line-height: 28px;
     }
     .card:hover {
@@ -3222,6 +3222,8 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 
 /* FAQ CSS ends */
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {}
 
 @media only screen and (max-width: 600px) {
     .elementor-7874 .elementor-element.elementor-element-1fcc5c6 .pxl-button .btn {
