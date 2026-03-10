@@ -2794,10 +2794,9 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     }
 }
 
-
-/* .our-team .img-box {
-    height: 380px;
-} */
+.our-team .img-box {
+    height: 500px;
+}
 
 .img-box {
     background-color: #171437;
@@ -3318,4 +3317,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     #token-img img {
         width: 100% !important;
     }
+    /* .our-team .img-box {
+        height: 300px;
+    } */
 }
