@@ -2685,7 +2685,7 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 }
 
 .hsec6 {
-    padding: 45px 0px 26px;
+    padding: 85px 0px 60px;
     h6 {
         font-size: 27px;
         font-weight: 500;
@@ -2783,7 +2783,8 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 /* Our Team css starts */
 
 .our-team,
-.our-advisory {
+.our-advisory,
+.our-founder {
     background-color: #0b0921;
     color: #fff;
     padding: 50px 0px;
@@ -2794,8 +2795,11 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     }
 }
 
-.our-team .img-box {
-    height: 500px;
+.our-founder .img-box {
+    height: 400px;
+    img {
+        width: 53%;
+    }
 }
 
 .img-box {
@@ -2804,8 +2808,14 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     transition: all .3s;
     clip-path: polygon(14% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 20%);
     height: 360px;
+    text-align: center;
+}
+
+.our-team .img-box {
+    height: 332px;
+    padding-top: 20px;
     img {
-        width: 100%;
+        width: 55%;
     }
 }
 
@@ -2822,7 +2832,8 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     position: absolute;
     z-index: 1;
     right: 10%;
-    top: 7%;
+    top: 3%;
+    /* top: 7%; */
     width: 42px;
 }
 
@@ -3223,6 +3234,12 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
 
 /* FAQ CSS ends */
 
+@media only screen and (min-width: 1000px) {
+    #team-des {
+        padding: 0% 8%;
+    }
+}
+
 @media only screen and (min-width: 700px) and (max-width: 1000px) {}
 
 @media only screen and (max-width: 600px) {
@@ -3274,7 +3291,8 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
         }
     }
     .our-team,
-    .our-advisory {
+    .our-advisory,
+    .our-founder {
         h2 {
             font-size: 42px;
             letter-spacing: 0px;
@@ -3317,7 +3335,22 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     #token-img img {
         width: 100% !important;
     }
-    .our-team .img-box {
+    .our-team .img-box,
+    .our-founder .img-box {
         height: 314px;
+    }
+    .our-advisory .img-box {
+        height: 330px;
+    }
+    .our-founder .img-box {
+        img {
+            width: 75%;
+        }
+    }
+    .our-team .img-box {
+        padding-top: 0px;
+        img {
+            width: 100%;
+        }
     }
 }
