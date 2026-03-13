@@ -2085,7 +2085,7 @@
                                                 <div class="elementor-element elementor-element-681f32c elementor-widget__width-auto elementor-widget elementor-widget-pxl_button" data-id="681f32c" data-element_type="widget" data-widget_type="pxl_button.default">
                                                     <div class="elementor-widget-container">
                                                         <div id="pxl-pxl_button-681f32c-7619" class="pxl-button pxl-atc-link " data-wow-delay="ms">
-                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right">
+                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right" href="coming-soon.html">
                                                                 <span class="pxl--btn-text" data-text="Contact Us"> Join
                                                                     us today </span>
                                                             </a>
@@ -2504,7 +2504,7 @@
                                                 <div class="elementor-element elementor-element-681f32c elementor-widget__width-auto elementor-widget elementor-widget-pxl_button" data-id="681f32c" data-element_type="widget" data-widget_type="pxl_button.default">
                                                     <div class="elementor-widget-container">
                                                         <div id="pxl-pxl_button-681f32c-5620" class="pxl-button pxl-atc-link " data-wow-delay="ms">
-                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right">
+                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right" href="coming-soon.html">
                                                                 <span class="pxl--btn-text" data-text="Contact Us"> Join
                                                                     us today</span>
                                                             </a>
@@ -2852,7 +2852,7 @@
                                                 <a href="faq.html"><span>FAQ</span></a>
                                             </li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45">
-                                                <a href="#"><span>Join Us Today</span></a>
+                                                <a href="coming-soon.html"><span>Join Us Today</span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -2947,7 +2947,7 @@
                                                                             data-widget_type="pxl_button.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div id="pxl-pxl_button-1fcc5c6-8956" class="pxl-button pxl-atc-link " data-wow-delay="ms">
-                                                                                    <a href="#!" class="btn pxl-icon-active btn-block-inline btn-text-nina btn-icon-box8 pxl-icon--right">
+                                                                                    <a href="coming-soon.html" class="btn pxl-icon-active btn-block-inline btn-text-nina btn-icon-box8 pxl-icon--right">
                                                                                         <span class="pxl--btn-text" data-text="Join the Public Sale"><span>J</span><span>o</span><span>i</span><span>n</span>
                                                                                         <span class="spacer">&nbsp;</span><span>t</span><span>h</span><span>e</span><span class="spacer">&nbsp;</span><span>P</span><span>u</span><span>b</span><span>l</span><span>i</span><span>c</span>
                                                                                         <span class="spacer">&nbsp;</span><span>S</span><span>a</span><span>l</span><span>e</span>
@@ -3388,7 +3388,7 @@
                                                         </div>
                                                         <p class="text-center pt-1">CEO & Co-Founder, DaveLabs</p>
                                                         <div id="team-des">
-                                                            <span style="font-size: 14px;">Shreya Shri is the Founder and
+                                                            <span style="font-size: 14px;">Shreya Shri is the Co-Founder and
                                                             CEO of DaveLabs, an award-winning technologist and
                                                             entrepreneur building next-generation financial
                                                             infrastructure for the digital economy. <br>
@@ -3989,9 +3989,9 @@
                                                                                 const popoverList = [...popoverTriggerList].map(el => new bootstrap.Popover(el))
                                                                             </script>
                                                                         </div>
-                                                                        <div id="subscribe">
+                                                                        <!-- <div id="subscribe">
                                                                             <button>Subscribe</button>
-                                                                        </div>
+                                                                        </div> -->
                                                                         <!-- <div class="pxl-contact-form pxl-contact-form1 btn-w-auto " data-wow-delay="ms ">
                                                                             <div class="wpcf7 no-js " id="wpcf7-f124-o1 " lang="en-US " dir="ltr " data-wpcf7-id="124 ">
                                                                                 <div class="screen-reader-response ">
@@ -4585,6 +4585,66 @@
     </script>
     <script type="text/javascript " src="../wp-content/plugins/elementor/assets/js/frontend.min87cc.js?ver=3.28.3 " id="elementor-frontend-js "></script>
     <script type="text/javascript " src="./wp-content/uploads/siteground-optimizer-assets/aimo-accordion.minf269.js " id="aimo-accordion-js "></script>
+
+    <!-- Cookies Consent Popup -->
+    <div class="cookie-consent shadow-lg p-3" id="cookieBox">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+
+            <p class="mb-2 mb-md-0">
+                We use cookies to improve your experience on our website. By continuing to browse, you agree to our use of cookies.
+            </p>
+
+            <div class="d-flex">
+                <button class="btn-outline-light btn-sm me-2" id="declineCookies" style="border-radius: 6px; background-color: #4520c2;padding: 0 20px;line-height: 40px;">Reject</button>
+                <button class="btn-primary btn-sm" id="acceptCookies" style="border-radius: 6px; background-color: #4520c2;padding: 0 20px;line-height: 40px;">Accept</button>
+            </div>
+
+        </div>
+    </div>
+    <style>
+        /* Cookie Consent Popup */
+        
+        .cookie-consent {
+            position: fixed;
+            bottom: -120px;
+            left: 0;
+            width: 100%;
+            background: #111;
+            color: #fff;
+            z-index: 9999;
+            transition: all 0.5s ease;
+        }
+        /* Show Popup */
+        
+        .cookie-consent.show {
+            bottom: 0;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            const cookieBox = document.getElementById("cookieBox");
+            const acceptBtn = document.getElementById("acceptCookies");
+            const declineBtn = document.getElementById("declineCookies");
+
+            if (!localStorage.getItem("cookieConsent")) {
+                setTimeout(() => {
+                    cookieBox.classList.add("show");
+                }, 1000);
+            }
+
+            acceptBtn.onclick = () => {
+                localStorage.setItem("cookieConsent", "accepted");
+                cookieBox.classList.remove("show");
+            };
+
+            declineBtn.onclick = () => {
+                localStorage.setItem("cookieConsent", "declined");
+                cookieBox.classList.remove("show");
+            };
+
+        });
+    </script>
 
 </body>
 
