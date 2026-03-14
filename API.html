@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscribe</title>
+
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+
+<h2>Subscribe</h2>
+
+<input type="email" id="email" placeholder="Enter Email" style="width:250px;height:30px;" />
+<br><br>
+
+<button onclick="subscribe()">Subscribe</button>
+
+<script>
+
+// Generate or get deviceId
+function getDeviceId() {
+
+    let deviceId = localStorage.getItem("deviceId");
+
+    if (!deviceId) {
+        deviceId = crypto.randomUUID();
+        localStorage.setItem("deviceId", deviceId);
+    }
+
+    return deviceId;
+}
+
+
+// Call API
+async function subscribe() {
+
+    let email = document.getElementById("email").value;
+
+    if(email == "")
+    {
+        Swal.fire("Error","Please enter email","error");
+        return;
+    }
+
+    let deviceId = getDeviceId();
+
+    let data = {
+        Email: email,
+        DeviceId: deviceId
+    };
+
+    try {
+
+        let response = await fetch("https://crm.dappay.network/api/application/user/subscribe", {
+
+            method: "POST",
+            headers: {
+                "ApiKey": "SIAMAQE2AF56C12CB37587A93B23B9",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+
+        });
+
+        let result = await response.json();
+
+        if(result.status == "success")
+        {
+            Swal.fire(
+                "Success",
+                result.message,
+                "success"
+            );
+        }
+        else
+        {
+            Swal.fire(
+                "Error",
+                result.message,
+                "error"
+            );
+        }
+
+    }
+    catch(error)
+    {
+        Swal.fire(
+            "Error",
+            "API call failed",
+            "error"
+        );
+    }
+
+}
+
+</script>
+
+</body>
+</html>
