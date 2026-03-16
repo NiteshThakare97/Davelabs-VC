@@ -2085,7 +2085,7 @@
                                                 <div class="elementor-element elementor-element-681f32c elementor-widget__width-auto elementor-widget elementor-widget-pxl_button" data-id="681f32c" data-element_type="widget" data-widget_type="pxl_button.default">
                                                     <div class="elementor-widget-container">
                                                         <div id="pxl-pxl_button-681f32c-7619" class="pxl-button pxl-atc-link " data-wow-delay="ms">
-                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right" href="coming-soon.html">
+                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right" href="comingsoon.html">
                                                                 <span class="pxl--btn-text" data-text="Contact Us"> Join
                                                                     us today </span>
                                                             </a>
@@ -2504,7 +2504,7 @@
                                                 <div class="elementor-element elementor-element-681f32c elementor-widget__width-auto elementor-widget elementor-widget-pxl_button" data-id="681f32c" data-element_type="widget" data-widget_type="pxl_button.default">
                                                     <div class="elementor-widget-container">
                                                         <div id="pxl-pxl_button-681f32c-5620" class="pxl-button pxl-atc-link " data-wow-delay="ms">
-                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right" href="coming-soon.html">
+                                                            <a class="btn pxl-icon-active btn-block-inline  btn-icon-box7 pxl-icon--right" href="comingsoon.html">
                                                                 <span class="pxl--btn-text" data-text="Contact Us"> Join
                                                                     us today</span>
                                                             </a>
@@ -2852,7 +2852,7 @@
                                                 <a href="faq.html"><span>FAQ</span></a>
                                             </li>
                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45">
-                                                <a href="coming-soon.html"><span>Join Us Today</span></a>
+                                                <a href="comingsoon.html"><span>Join Us Today</span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -2947,7 +2947,7 @@
                                                                             data-widget_type="pxl_button.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div id="pxl-pxl_button-1fcc5c6-8956" class="pxl-button pxl-atc-link " data-wow-delay="ms">
-                                                                                    <a href="coming-soon.html" class="btn pxl-icon-active btn-block-inline btn-text-nina btn-icon-box8 pxl-icon--right">
+                                                                                    <a href="comingsoon.html" class="btn pxl-icon-active btn-block-inline btn-text-nina btn-icon-box8 pxl-icon--right">
                                                                                         <span class="pxl--btn-text" data-text="Join the Public Sale"><span>J</span><span>o</span><span>i</span><span>n</span>
                                                                                         <span class="spacer">&nbsp;</span><span>t</span><span>h</span><span>e</span><span class="spacer">&nbsp;</span><span>P</span><span>u</span><span>b</span><span>l</span><span>i</span><span>c</span>
                                                                                         <span class="spacer">&nbsp;</span><span>S</span><span>a</span><span>l</span><span>e</span>
@@ -4016,6 +4016,7 @@
                                                                         <div id="subscribe">
                                                                             <input type="email" id="email" placeholder="Enter Email" style="width:100%;height:36px; border-radius: 6px; padding: 6px 10px; font-size: 16px; margin-bottom: 10px;" />
                                                                             <button onclick="subscribe()">Subscribe</button>
+                                                                            <label style="padding-top: 5px; font-size: 14px; text-align: left;" for="" id="subscribemessage"></label>
                                                                         </div>
                                                                         <script>
                                                                             // Generate or get deviceId
@@ -4036,9 +4037,20 @@
                                                                             async function subscribe() {
 
                                                                                 let email = document.getElementById("email").value;
+                                                                                var subscribemessage = document.getElementById("subscribemessage");
 
                                                                                 if (email == "") {
-                                                                                    Swal.fire("Error", "Please enter email", "error");
+                                                                                    // Swal.fire("Error", "Please enter email", "error");
+                                                                                    subscribemessage.innerText = "Please enter email";
+                                                                                    subscribemessage.style.color = "red";
+                                                                                    return;
+                                                                                }
+
+                                                                                let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+                                                                                if (!email.match(pattern)) {
+                                                                                    subscribemessage.innerText = "Please enter a valid email address.";
+                                                                                    subscribemessage.style.color = "red";
                                                                                     return;
                                                                                 }
 
@@ -4065,25 +4077,34 @@
                                                                                     let result = await response.json();
 
                                                                                     if (result.status == "success") {
-                                                                                        Swal.fire(
-                                                                                            "Success",
-                                                                                            result.message,
-                                                                                            "success"
-                                                                                        );
+                                                                                        // Swal.fire(
+                                                                                        //     "Success",
+                                                                                        //     result.message,
+                                                                                        //     "success"
+                                                                                        // );
+                                                                                        subscribemessage.innerText = "You're Subscribed!";
+                                                                                        subscribemessage.style.color = "green";
+
                                                                                     } else {
-                                                                                        Swal.fire(
-                                                                                            "Error",
-                                                                                            result.message,
-                                                                                            "error"
-                                                                                        );
+                                                                                        // Swal.fire(
+                                                                                        //     "Error",
+                                                                                        //     result.message,
+                                                                                        //     "error"
+                                                                                        // );
+                                                                                        subscribemessage.innerText = "You are already subscribed.";
+                                                                                        subscribemessage.style.color = "red";
                                                                                     }
 
                                                                                 } catch (error) {
-                                                                                    Swal.fire(
-                                                                                        "Error",
-                                                                                        "API call failed",
-                                                                                        "error"
-                                                                                    );
+                                                                                    // Swal.fire(
+                                                                                    //     "Error",
+                                                                                    //     "API call failed",
+                                                                                    //     "error"
+                                                                                    // );
+                                                                                    subscribemessage.innerText = "Something went wrong";
+                                                                                    subscribemessage.style.color = "red";
+                                                                                } finally {
+                                                                                    document.getElementById("email").value = "";
                                                                                 }
 
                                                                             }
