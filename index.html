@@ -4032,6 +4032,11 @@
                                                                                 return deviceId;
                                                                             }
 
+                                                                            function clearMessage() {
+                                                                                setTimeout(function() {
+                                                                                    document.getElementById("subscribemessage").innerText = "";
+                                                                                }, 5000); // 5 seconds
+                                                                            }
 
                                                                             // Call API
                                                                             async function subscribe() {
@@ -4043,6 +4048,7 @@
                                                                                     // Swal.fire("Error", "Please enter email", "error");
                                                                                     subscribemessage.innerText = "Please enter email";
                                                                                     subscribemessage.style.color = "red";
+                                                                                    clearMessage();
                                                                                     return;
                                                                                 }
 
@@ -4051,6 +4057,7 @@
                                                                                 if (!email.match(pattern)) {
                                                                                     subscribemessage.innerText = "Please enter a valid email address.";
                                                                                     subscribemessage.style.color = "red";
+                                                                                    clearMessage();
                                                                                     return;
                                                                                 }
 
@@ -4084,6 +4091,7 @@
                                                                                         // );
                                                                                         subscribemessage.innerText = "You're Subscribed!";
                                                                                         subscribemessage.style.color = "green";
+                                                                                        clearMessage();
 
                                                                                     } else {
                                                                                         // Swal.fire(
@@ -4093,6 +4101,7 @@
                                                                                         // );
                                                                                         subscribemessage.innerText = "You are already subscribed.";
                                                                                         subscribemessage.style.color = "red";
+                                                                                        clearMessage();
                                                                                     }
 
                                                                                 } catch (error) {
@@ -4103,6 +4112,7 @@
                                                                                     // );
                                                                                     subscribemessage.innerText = "Something went wrong";
                                                                                     subscribemessage.style.color = "red";
+                                                                                    clearMessage();
                                                                                 } finally {
                                                                                     document.getElementById("email").value = "";
                                                                                 }
