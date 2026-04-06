@@ -3231,6 +3231,12 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     }
 }
 
+.our-advisory .img-box {
+    img {
+        width: 70%;
+    }
+}
+
 
 /* FAQ CSS ends */
 
@@ -3349,6 +3355,11 @@ body.rtl .elementor-7874 .elementor-element.elementor-element-1aa07ff {
     }
     .our-team .img-box {
         padding-top: 0px;
+        img {
+            width: 100%;
+        }
+    }
+    .our-advisory .img-box {
         img {
             width: 100%;
         }
